@@ -1,0 +1,352 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.page {
+  font-family: 'Podkova', sans-serif;
+  background: #ffe6ef;
+}
+
+/* Header section */
+
+.header {
+  padding: 32px 0px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  min-width: 360px;
+  max-width: 1032px;
+  margin: 0 auto;
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 52px;
+  background: linear-gradient(92.2deg, #ffafcb 4.81%, #ff5c95 91.23%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  letter-spacing: -0.02em;
+}
+
+.header-icon {
+  width: 44px;
+  height: 44px;
+}
+
+/* Hero section */
+
+.hero {
+  padding: 100px 0px;
+  max-width: 1440px;
+  background: url(../images/meiko1.png);
+  margin: 0 auto;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 16px;
+  gap: 32px;
+  min-width: 360px;
+  max-width: 1032px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  max-width: 484px;
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 68px;
+  letter-spacing: -0.02em;
+  color: #4a071e;
+}
+
+.hero-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  max-width: 484px;
+}
+
+.hero-text {
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4a071e;
+}
+
+.hero-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 32px;
+  max-width: 608px;
+  background: linear-gradient(100.82deg, #ffafcb 17.5%, #ff5c95 94.87%);
+  border: 2px solid #ff5c95;
+  border-radius: 24px;
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 49px;
+  color: #ffffff;
+  transition: 200ms ease-in;
+}
+
+.hero-link:hover {
+  background: linear-gradient(100.82deg, #ff5c95 17.5%, #ffafcb 94.87%);
+  box-shadow: 0px 6px 12px rgba(74, 7, 30, 0.5);
+}
+
+/* Features section */
+
+.features {
+  padding: 100px 0px;
+  min-width: 360px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 16px;
+  gap: 64px;
+  min-width: 360px;
+  max-width: 1032px;
+  margin: 0 auto;
+}
+
+.features-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  min-width: 328px;
+  max-width: 746px;
+}
+
+.features-title {
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 48px;
+  line-height: 52px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #4a071e;
+}
+
+.features-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  padding: 0px;
+  gap: 32px;
+}
+
+.features-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 312px;
+  min-height: 460px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 1px 3px rgba(74, 7, 30, 0.2);
+  border-radius: 24px;
+  overflow: hidden;
+  transition: 300ms ease-out;
+}
+
+.features-item:hover {
+  box-shadow: 0px 6px 12px rgba(74, 7, 30, 0.5);
+}
+
+.features-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 36px 24px;
+  gap: 16px;
+}
+
+.features-subtitle {
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 22px;
+  line-height: 26px;
+  color: #4a071e;
+}
+
+.features-desc {
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #4a071e;
+}
+
+/* Call to action */
+
+.cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+  max-width: 1440px;
+  background: url(../images/meiko2.png);
+  margin: 0 auto;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0px 16px;
+  gap: 48px;
+  min-width: 360px;
+  max-width: 1032px;
+  margin: 0 auto;
+}
+
+.cta-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 48px 32px;
+  gap: 16px;
+  min-width: 328px;
+  max-width: 494px;
+  background: rgba(255, 198, 218, 0.8);
+  border-radius: 24px;
+  margin-right: 300px;
+}
+
+.cta-subtitle {
+  max-width: 420px;
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #4a071e;
+}
+
+.cta-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  min-width: 264px;
+  max-width: 420px;
+  width: 100%;
+}
+
+.cta-form-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px 12px;
+  gap: 10px;
+  min-width: 264px;
+  max-width: 420px;
+  background: rgba(255, 163, 195, 0.5);
+  border-radius: 16px;
+  width: 100%;
+  transition: 200ms ease-in;
+}
+
+.cta-form-field:focus {
+  box-shadow: 0px 0px 1px 4px #ff5c95;
+}
+
+.cta-form-field::placeholder {
+  font-family: 'Podkova';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgba(74, 7, 30, 0.5);
+}
+
+.cta-btn {
+  background: linear-gradient(100.82deg, #ffafcb 17.5%, #ff5c95 94.87%);
+  border: 2px solid #ff5c95;
+  border-radius: 24px;
+  width: 100%;
+  height: 71px;
+  align-items: center;
+  text-align: center;
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Footer section */
+
+.page-footer {
+  padding: 32px 0px;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  margin: 0 auto;
+  min-width: 360px;
+  max-width: 1032px;
+}
+
+.footer-copyrights {
+  font-family: 'Podkova';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 31px;
+  text-align: center;
+  color: #4a071e;
+  opacity: 0.5;
+}
